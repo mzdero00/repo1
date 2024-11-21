@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   title: "Blog",
 };
 
-export const BASE_API_URL = "https://jsonplaceholder.typicode.com";
+const BASE_API_URL = "https://jsonplaceholder.typicode.com";
 const PAGE_SIZE = 6;
 
 async function getPosts({
