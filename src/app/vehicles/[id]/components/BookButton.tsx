@@ -2,7 +2,7 @@
 "use client";
 
 type BookButtonProps = {
-  vehicleId: string;
+  vehicleId: number;
 };
 
 export default function BookButton({ vehicleId }: BookButtonProps) {
