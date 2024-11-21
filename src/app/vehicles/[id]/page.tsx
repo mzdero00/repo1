@@ -20,7 +20,7 @@ async function getPost(id: string): Promise<Post> {
 
 export default async function BlogPost({ params }: BlogPostProps) {
   const post = await getPost(params.id);
-  const { id, title, body } = post; // Ensure your API returns these fields
+  const { id } = post; // Ensure your API returns these fields
   if (!id) {
     notFound();
   }
