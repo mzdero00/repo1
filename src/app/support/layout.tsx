@@ -2,10 +2,10 @@ import { Metadata } from "next";
 import { Navigation } from "./_components/navigation";
 
 export const metadata: Metadata = {
-  title: "Showcase",
+  title: "Support",
 };
 
-export default function ShowcaseLayout({
+export default function SupportLayout({
   children,
 }: {
   children: React.ReactNode;

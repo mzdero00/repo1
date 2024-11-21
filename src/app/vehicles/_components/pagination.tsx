@@ -14,7 +14,7 @@ export default function Pagination(pagination: PaginationProps) {
     <div className="w-full mb-6">
       <div className="bg-white rounded-lg border border-gray-200 shadow-sm p-4 flex justify-between items-center">
         <Link
-          href={`/blog?page=${currentPage - 1}`}
+          href={`/vehicles?page=${currentPage - 1}`}
           className={`px-4 py-2 rounded-md transition-colors duration-200 ${
             isFirstPage
               ? "bg-gray-100 text-gray-400 cursor-not-allowed"
@@ -30,7 +30,7 @@ export default function Pagination(pagination: PaginationProps) {
           <span className="font-semibold text-gray-900">{pagesCount}</span>
         </p>
         <Link
-          href={`/blog?page=${currentPage + 1}`}
+          href={`/vehicles?page=${currentPage + 1}`}
           className={`px-4 py-2 rounded-md transition-colors duration-200 ${
             isLastPage
               ? "bg-gray-100 text-gray-400 cursor-not-allowed"

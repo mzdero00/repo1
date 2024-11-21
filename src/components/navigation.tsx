@@ -12,20 +12,16 @@ type Page = {
 const pages: Page[] = [
   { title: "Home", path: "/" },
   {
-    title: "Showcase",
-    path: "/showcase",
+    title: "Vehicles",
+    path: "/vehicles",
   },
   {
-    title: "Blog",
-    path: "/blog",
+    title: "Support",
+    path: "/support",
   },
   {
-    title: "About us",
-    path: "/about",
-  },
-  {
-    title: "Contact us",
-    path: "/contact",
+    title: "Login",
+    path: "/login",
   },
 ];
 
